@@ -65,9 +65,11 @@ header {
      display: flex;
     flex-direction: column;
     align-items: stretch;
-    
-   
 }
+
+/* section portfoglio */
+
+
 /* MEDIA QUERY */
 
 /* media screen medium */
