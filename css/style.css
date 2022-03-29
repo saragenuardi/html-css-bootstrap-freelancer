@@ -1,0 +1,67 @@
+/* common */
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+/* logo */
+
+.logo-wrapper {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+/* header */
+
+header {
+    background-color: #3a546d;
+    height: 80px;
+    line-height: 80px;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-wrapper {
+    text-align: right;
+    color: white;
+}
+
+.burger {
+    display: block;
+}
+
+/* MEDIA QUERY */
+
+/* media screen medium */
+
+@media (min-width: 768px) {
+    .menu {
+        display: block;
+    }
+
+    .burger {
+        display: none;
+    }
+}
+
+/* media screen large */
+@media (min-width: 1280px) {
+    .menu {
+        display: block;
+    }
+
+    .burger {
+        display: none;
+    }
+}
