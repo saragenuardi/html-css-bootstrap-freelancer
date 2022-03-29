@@ -23,6 +23,11 @@ a {
 h1 {
     color: white;
 }
+
+h2 {
+    text-align: center;
+}
+
 /* logo */
 
 .logo-wrapper {
@@ -59,15 +64,23 @@ header {
 /* jumbotron */
 .jumbotron {
     background-color: #1abc9c;
+    text-align: center;
+}
+.jumbotron-image > img {
+    width: 200px;
+    height: auto;
 }
 
-.container-fluid {
+/* .container-fluid {
      display: flex;
     flex-direction: column;
     align-items: stretch;
-}
+} */
 
-/* section portfoglio */
+/* section about */
+.about {
+    background-color: #1abc9c;
+}
 
 
 /* MEDIA QUERY */
