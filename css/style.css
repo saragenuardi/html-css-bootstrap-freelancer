@@ -1,3 +1,12 @@
+/* VARIANLES */
+
+:root {
+    /* colors */
+    --ms_primary-color: #1abc9c;
+    --ms-secondarr-color: #3a546d;
+    --ms-secondary-color-light: #3A546D ;
+}
+
 /* common */
 html {
     font-size: 100%;
@@ -20,31 +29,47 @@ a {
     color: white;
 }
 
-h1 {
+.ms_section  {
+    padding: 2rem;
+}
+
+.ms_contaimer-small {
+    max-width: 1170px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.ms_bg-primary {
+    background-color: var(--ms_primary-color);
     color: white;
 }
 
-h2 {
-    text-align: center;
+.ms_btn {
+    padding: .5rem 1rem;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #1abc9c;
+}
+
+.download_btn:hover {
+    color: #1abc9c;
+    background-color: white;
 }
 
 /* logo */
 
 .logo-wrapper {
-    color: white;
     font-size: 1.5rem;
-    font-weight: bolder;
 }
 
 /* header */
 
 header {
-    background-color: #3a546d;
+    background-color: var(--ms-secondarr-color);
     height: 80px;
     line-height: 80px;
-}
-
-.ms-a-menu {
+    color: white;
     font-weight: bolder;
 }
 
@@ -61,9 +86,15 @@ header {
     display: block;
 }
 
+/* MAIN */
+.ms_title-wrapper {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
 /* jumbotron */
-.jumbotron {
-    background-color: #1abc9c;
+
+.ms_jumbotron {
     text-align: center;
 }
 .jumbotron-image > img {
@@ -71,17 +102,40 @@ header {
     height: auto;
 }
 
-/* .container-fluid {
-     display: flex;
-    flex-direction: column;
-    align-items: stretch;
-} */
-
-/* section about */
-.about {
-    background-color: #1abc9c;
+.ms_card {
+     border-radius: 20px;
 }
 
+/* section about */
+
+.btn-about {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/* section contact */
+
+.ms_contact-form {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border-top: 0;
+    padding: 1rem 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+ .form-control:focus {
+    box-shadow: none;
+    border-color: #b0b5b9;
+} 
+
+.ms_form_message {
+    padding-bottom: 7rem;
+}
+
+.send_btn:hover {
+    background-color: #15a084;
+}
 
 /* MEDIA QUERY */
 
@@ -92,7 +146,7 @@ header {
         display: block;
     }
 
-    .burger {
+    .ms_burger {
         display: none;
     }
 }
@@ -103,7 +157,7 @@ header {
         display: block;
     }
 
-    .burger {
+    .ms_burger {
         display: none;
     }
 }
