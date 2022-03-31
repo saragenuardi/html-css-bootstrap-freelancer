@@ -67,6 +67,29 @@ a {
     background-color: white;
 }
 
+
+/* star */
+
+.star {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.star::before, 
+.star::after {
+    content: "";
+    display: inline-block;
+    width: 4rem;
+    height: 3px;
+    background-color: var(--ms-secondarr-color);
+    vertical-align: super;
+}
+
+.ms_bg-primary .star::after,
+.ms_bg-primary .star::before {
+    background-color: white;
+}
+
 /* logo */
 
 .logo-wrapper {
@@ -116,7 +139,7 @@ header {
 .ms_icon {
     font-size: 1rem;
     padding: .5rem .8rem;
-    border: 1px solid white;
+    border: 1px solid #888888;
     color: #888888;
     border-radius: 5px;
 }
